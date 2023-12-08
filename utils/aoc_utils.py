@@ -16,7 +16,7 @@ class AOCDay:
     inputFilename = ""
     outputFilename = ""
     sessionToken = ""
-    inputData : list[str] = None 
+    inputData  = None 
 
 
     def __init__(self, year, dayNumber, sessionToken):
